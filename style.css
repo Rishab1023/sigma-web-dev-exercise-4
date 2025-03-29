@@ -7,6 +7,8 @@ header{
     background-image: linear-gradient(90deg, rgb(248, 100, 223),rgb(128, 86, 246),rgb(104, 137, 245),rgb(110, 234, 243)) ;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
 }
 
 .heading{
@@ -29,6 +31,7 @@ img{
     align-items: center;
     padding: 10px;
     font-size: 30px;
+    
 }
 a{
     text-decoration: none;
@@ -38,11 +41,44 @@ a{
 }
 
 a:hover{
-    font-size: 20px;
-    transition: ease;
-    transition-duration: 800ms;
+    /* font-size: 20px; */
     background-color: rgba(0, 255, 255, 0.6);
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     color: rgb(255, 255, 255);
+    transition: ease;
+    transition-duration: 800ms;
+}
+main{
+    padding: 10px;
+}
+.box1{
+    background-color: aqua;
+    border: solid black;
+    height: 200PX;
+    width: 200px;
+}
+.box2{
+    background-color: rgb(21, 255, 0);
+    border: solid black;
+    height: 200PX;
+    width: 200px;
+}
+.box3{
+    background-color: rgb(93, 0, 255);
+    border: solid black;
+    height: 200PX;
+    width: 200px;
+}
+.box4{
+    background-color: aqua;
+    border: solid black;
+    height: 200PX;
+    width: 200px;
+}
+.box5{
+    background-color: rgb(17, 0, 255);
+    border: solid black;
+    height: 200PX;
+    width: 200px;
 }
