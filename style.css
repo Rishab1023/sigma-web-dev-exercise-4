@@ -40,7 +40,7 @@ a{
 a:hover{
     font-size: 20px;
     transition: ease;
-    transition-duration: 1s;
+    transition-duration: 800ms;
     background-color: rgba(0, 255, 255, 0.6);
     border-radius: 10px;
     padding: 10px;
